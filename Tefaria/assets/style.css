@@ -1,0 +1,90 @@
+.top-menu i
+{
+color: #198754;
+font-size: 12px;
+padding: top 32px;
+}
+.slider-img img
+{
+height: 65vh;
+}
+.slider-img .carousel-caption
+{
+    background-color: rgb(245, 245, 206);
+}
+.slider-img .carousel-caption h5
+{
+    font-size: 32px;
+    font-weight: 500;
+}
+.slider-img.carousel-caption p
+{
+font-size: 30px;
+font-weight: 500;
+}
+.activity .card img
+{
+    height: 250px;
+}
+.activity .card .card-body:hover
+{
+    /* background-color: #111411a6; */
+    color: white;
+    background-color:#70b170e3!important;
+}
+.activity .card:hover
+{
+    transform: scale(1.oo5);
+    box-shadow: 0 10px 20px #6eb66e,0 4px 8px rgb(110, 182, 110)  ;
+}
+.activity .card
+{
+    padding: 2px;
+
+}
+.pricing
+{    background-image: url('nn3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pricing .card
+{
+    border-top: 3px solid rgb(0, 128, 0);
+}
+
+.calender p.header
+{
+    padding: 10px;
+    color:white;
+    font-size: 20px;
+    background: rgb(110,182,110);
+background: linear-gradient(90deg, rgba(110,182,110,1) 0%, rgba(110,182,110,1) 7%, rgba(111,166,111,1) 45%, rgba(111,166,111,1) 45%, rgba(111,161,111,1) 50%, rgba(111,157,111,1) 54%, rgba(0,212,255,1) 76%, rgba(0,113,136,1) 94%, rgba(0,0,0,1) 100%);
+}
+
+.calender img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.ticketbooking
+{
+    background-image: url('nn3.jpg');
+    min-height: 50vh;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+    color: white!important;
+    background-repeat: no-repeat;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+.ticketbooking button:hover
+{
+background-color:#3f5efb;
+transform: scale(.9);
+transition: .7s linear;
+}
